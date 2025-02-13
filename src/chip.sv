@@ -20,7 +20,7 @@ module my_chip (
         .go(1'b1),
         .finish(1'b0),
         .range(io_out),
-        .debug_error(1'b0)
+        .debug_error()
     );
 
     // wire [6:0] led_out;
